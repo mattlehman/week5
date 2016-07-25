@@ -1,0 +1,304 @@
+/*
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Matthew Lehman
+Developer @GA in Washington DC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #033048;
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 1.5;
+     font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #033048;
+    
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  background-color:#efefee;
+}
+
+#content {
+  width: 960px;
+  margin: 100px auto;
+}
+
+
+
+/* PART 1 */
+
+header {
+  background-color: #033048;
+  width: 100%;
+  padding: 65px;
+  display: inline-block;
+}
+
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: #FFF;
+}
+
+header h1 {
+  float: left;
+}
+
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+.nav li {
+    display: inline;
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+
+.nav li a {
+  color: #f9e42e;
+}
+
+.nav li a:hover {
+  color: #fff;
+}
+
+
+
+
+/************ Part 2 *************/
+
+#articlesstuff {
+  width: 700px;
+  float: left;
+  margin-right: 20px;
+}
+
+.firstsec {
+  border-bottom: 1px solid #033048;
+  margin-bottom: 50px;
+}
+
+
+
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.pic {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  
+}
+
+
+article p: {
+  font-size:85px;
+  float: left;
+  margin: -20px 20px 0px 0px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.readmore, .readless {
+  font-weight: 600;
+  float: right;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.readmore:hover {
+  color:#f9e42e;
+}
+
+.secondsec {
+  border-bottom: 1px solid #033048;
+  margin-bottom: 50px;
+}
+
+.letter {
+    float: left;
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 5px;
+
+  }
+
+
+/************** Part 3: on the side ******************/
+
+.ontheside {
+  width: 200px;
+  float: left;
+}
+
+.sidescreen {
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 0px;
+}
+
+.aboutrelax {
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.learnstuff a {
+  font-weight: 800;
+
+}
+
+.ontheside a {
+  font-weight: 300;
+}
+
+
+.ontheside a:hover {
+    color:#f9e42e;
+}
+
+
+
+
+
+
+/***** Part 4 *****************/
+
+
+.signup {
+  background: #f9e42e;
+  padding: 35px 40px;
+}
+
+.button1 {
+  
+  padding: 15px 70px;
+  width: 310px;
+  margin: 0 auto;
+  background: #033048;
+}
+
+.button1 p {
+  font-weight: 800;
+  color:  white;
+  text-align: center;
+}
+
+.button1 p:hover {
+  color: #0000FF;
+}
+
+
+
+/******* part 5 footer *******/
+
+footer {
+  height: 300px;
+  background: black;
+  padding: 70px 0px;
+}
+
+footer h1{
+  color: #f9e42e;
+  text-align: center;
+  padding: 0px;
+}
+
+.social {
+  width: 107px;
+  margin: 0 auto;
+  padding: 80px 0px;
+}
+
+.relaxarea {
+  color: yellow;
+  margin-top: -35px;
+
+}
+
+footer img {
+  padding: 10px;
+  display: inline-block;
+  margin-top: -20px;
+}
+
+
+footer p {
+  font-size: 9px;
+  color: #fff;
+  text-align: center;
+  margin-top: -30px;
+}
+
+
+
+
+
+
